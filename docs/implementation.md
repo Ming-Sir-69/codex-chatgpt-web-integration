@@ -6,9 +6,11 @@
 
 主要路径：应用 `/Applications/Codex Web GPT.app`，本地 Responses `http://127.0.0.1:17841/v1`，私有状态 `~/.codex-chatgpt-web/`，管理命令 `~/.local/bin/codex-web`。这些是路径约定，不是需要提交到 Git 的状态内容。
 
-## 设置顺序
+## 安装入口与本次历史设置顺序
 
-1. 使用上游官方 v5.0.6 安装器，核验发布校验和，安装 arm64 包。
+**首次安装、更新、修复及下载均使用[原作者仓库](https://github.com/miuuyy/codex-chatgpt-web#readme)和[原作者 Releases](https://github.com/miuuyy/codex-chatgpt-web/releases)。** 不以本仓库的历史版本记录替代原作者当前安装说明。下面重现的是本次 v5.0.6 实验，兼容问题已经被上游修复时应退出对应适配。
+
+1. 本次实验从[原作者 v5.0.6 发布页](https://github.com/miuuyy/codex-chatgpt-web/releases/tag/v5.0.6)获取安装器，核验发布校验和，安装 arm64 包。
 2. 在桥接应用内完成自己的 ChatGPT 登录。
 3. 完成 Full 模式：官方 Tunnel、仅 Tunnels Read + Use 的普通 key、名为 Codex Native2 的 ChatGPT 连接器，以及运行时验证。
 4. 安装 `ops/` 的具名配置和独立命令，获取真实模型目录，再安装桌面字段。
