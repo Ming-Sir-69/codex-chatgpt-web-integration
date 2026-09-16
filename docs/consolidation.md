@@ -12,3 +12,7 @@
 - 没有复制可从原作者重新获取的完整源码、依赖和安装包；没有混入独立只读 MCP 项目。
 
 核心产品属于 [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) 及其贡献者。我们的贡献是本机适配、可逆配置、验证工具和实测结论。安装、更新、产品发布仍使用原作者入口。
+
+## 本地目录也只保留一份
+
+本地统一使用 `codex-chatgpt-web-integration` 工作区，旧同级 `codex-chatgpt-web` 目录已删除。公开适配和版权声明各保留一份；私人原始证据、哈希清单与旧目录说明集中在本工作区的 `.local-archive/`，由 `.gitignore` 排除，并有本机 Git exclude 作为额外保护，不能发布。迁移前后核对文件哈希，删除的补丁和许可证副本与保留版完全一致。

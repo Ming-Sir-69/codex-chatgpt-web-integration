@@ -7,3 +7,6 @@ __pycache__/
 *.key
 *.log
 .DS_Store
+
+# Private local evidence; never publish.
+/.local-archive/
