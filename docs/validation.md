@@ -14,6 +14,7 @@
 | 桌面模型列表 | 修复前五个原生；修复后五个原生＋五个网页档位 |
 | 桌面五档工具开发 | Instant、Medium、Extra High、Pro 各完成原生补丁、命令和 6 项测试；High 复测完成两轮 6/8 项及退出码验证 |
 | 桌面 High 首次失败 | 临时聊天准备不可用，伴随 Cloudflare 请求；客户端显示 capacity。后续同档位复测成功，不把首次失败写成全绿 |
+| 本仓库管理回归 | 12 项离线测试通过，包括路由、桌面恢复和目录同步 |
 | 撤销/重接 | 桌面字段和上游路由联合 disconnect/connect 后，配置字节一致 |
 | 三倍目录同步 | 新目录 Pro context_window=336579，effective=85%，auto_compact=285000；后台 watcher 真实重建成功 |
 | 离线切换：模拟 50k | 同线程 Astra → Web Pro，两轮完成，无 compaction_trigger；显示窗口分别 950000 / 286092 |
