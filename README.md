@@ -1,6 +1,7 @@
-# codex-chatgpt-web：macOS 实践与配置适配
+# Codex × ChatGPT Web：集成增强、可逆配置与工程验证
 
-**已正式归档 · 探索结束于 2026-09-16。** 本仓库保留独有配置、实验结论与必要复现工具，不再继续功能开发。原项目仍由原作者维护，安装和更新请直接前往下方上游入口。
+**基于 miuuyy/codex-chatgpt-web 的 macOS 实践与配置增强。** 本仓库汇集代理感知启动、可靠路由、可逆桌面配置、工具目录同步、开发验收与上下文边界实验。我们的本机探索于 2026-09-16 完成；GitHub 仓库保持正常开放，供阅读与复用。
+
 > 原项目由 **[miuuyy](https://github.com/miuuyy)** 及其贡献者开发。网页推理桥接、桌面启动器、MCP 完整工具回路等核心能力来自原项目，感谢作者的开放分享与持续维护。
 >
 > **[原作者仓库](https://github.com/miuuyy/codex-chatgpt-web) · [原作者安装与快速开始](https://github.com/miuuyy/codex-chatgpt-web#readme) · [原作者发布下载](https://github.com/miuuyy/codex-chatgpt-web/releases) · [原作者中文文档](https://github.com/miuuyy/codex-chatgpt-web/blob/main/README.zh-CN.md)**
@@ -55,7 +56,8 @@ flowchart LR
 1. [接入方法与兼容问题](docs/implementation.md)：系统代理、固定路由、工具目录、桌面集成和撤销。
 2. [验证结果与边界](docs/validation.md)：成功、失败、无效试验分别记录。
 3. [上下文问题与退役决策](docs/context-and-retirement.md)：为什么 3× 不是 900k，以及如何恢复原生配置。
-4. [ops/](ops/)：本次实验的独立维护入口和可复现实验脚本。
+4. [维护与复现](docs/maintenance-and-reproduction.md)：配置命令、恢复步骤与可复现实验。
+5. [合并说明](docs/consolidation.md)：两个旧仓库的内容归并和资料保留范围。
 
 ## 代码如何使用
 
