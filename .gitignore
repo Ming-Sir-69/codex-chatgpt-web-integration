@@ -1,0 +1,9 @@
+ops/evidence/
+ops/acceptance/runs/
+__pycache__/
+.venv/
+.env
+.env.*
+*.key
+*.log
+.DS_Store

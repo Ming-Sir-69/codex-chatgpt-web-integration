@@ -1,0 +1,7 @@
+# Managed by codex-chatgpt-web ops; install with ops/manage.py install-profiles.
+model_provider = "openai"
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+openai_base_url = "https://chatgpt.com/backend-api/codex"
+approvals_reviewer = "user"
+service_tier = "default"

@@ -1,0 +1,7 @@
+# Managed by codex-chatgpt-web ops; install with ops/manage.py install-profiles.
+model_provider = "openai"
+model = "chatgpt-web/high"
+model_reasoning_effort = "high"
+openai_base_url = "http://127.0.0.1:17841/v1"
+approvals_reviewer = "user"
+service_tier = "default"
