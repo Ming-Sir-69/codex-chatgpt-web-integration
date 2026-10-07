@@ -76,3 +76,11 @@ Python 3.11+ 可运行管理入口和离线测试。真实接入还需要匹配�
 仅包含人工审阅过的说明、代码、合成测试夹具和汇总数字。没有 API key、Tunnel ID、账号令牌、模型目录原始快照、浏览器登录资料、完整会话、私人截图、原始运行日志或生产数据。
 
 没有公开原始私有仓库历史；本仓库从清理后的材料新建。上游软件继续遵循[原作者许可证](https://github.com/miuuyy/codex-chatgpt-web/blob/main/LICENSE)；小范围上游补丁保留其[原始 MIT 版权声明](LICENSES/upstream-MIT.txt)。本仓库新增的工具与文档采用 [MIT](LICENSE)。
+
+## 参与与维护
+
+适合正在评估 macOS 上 Codex 与 ChatGPT 网页桥接的开发者，以及需要了解兼容问题、撤销步骤和实验边界的读者。第一次使用请先走上面的原作者安装入口，再按“阅读顺序”判断是否需要本仓库的适配。
+
+欢迎通过 [Issues](https://github.com/Ming-Sir-69/codex-chatgpt-web-integration/issues) 提交文档纠错、可复现的兼容问题或改进建议。请写明相关版本、操作步骤与脱敏后的现象；不要上传登录资料、令牌或完整私人会话。上游软件问题优先到原作者仓库讨论，本仓库的适配与文档可在此提交 Pull Request。
+
+仓库维护：[Ming-Sir-69](https://github.com/Ming-Sir-69)。上游核心软件与其贡献者的归属、[保留的 MIT 声明](LICENSES/upstream-MIT.txt)及本仓库 [LICENSE](LICENSE) 继续适用；维护署名不改变版权或许可范围。
